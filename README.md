@@ -205,7 +205,7 @@ smart-beach-cv/
 │   └── requirements.txt         # Dependencies for detection
 │
 ├── 📂 notebooks/
-│   ├── Smart_Beach_YOLOv5_FRCNN.ipynb   # Full Colab notebook
+│   ├── Zone_Based_Image_Classification_and_Object_Detection.ipynb   # Full Colab notebook
 │   └── Water_Segmentation.ipynb          # Segmentation notebook
 │
 ├── 📂 test-data/
@@ -274,7 +274,7 @@ python ensemble_detection.py --input ../test-data/sample_images --output ../resu
 ```
 
 ### Step 5 — Run in Google Colab (Recommended for GPU)
-1. Open `notebooks/Smart_Beach_YOLOv5_FRCNN.ipynb` in Google Colab
+1. Open `notebooks/Zone_Based_Image_Classification_and_Object_Detection.ipynb` in Google Colab
 2. Mount your Google Drive
 3. Update `folder_path` to your test image directory
 4. Run all cells — outputs saved automatically to `/op` folder
